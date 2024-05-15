@@ -53,7 +53,11 @@ async function fetchUserData() {
         if (rank == "Rank undefined") {
             rank = "No Rank"
         }
-        const time = maps[key].score / 100;
+        let time = maps[key].score / 100;
+        console.log(maps[key].score)
+        if (time > 60) {
+            time = Math.floor(time / 60) + ":" + ("0" + Math.floor(time % 60)).slice(-2) + "." + ("00" + Math.floor((time - Math.floor(time)) * 100)).slice(-2);
+        }
         const playerName = settings.name;
         console.log(name, rank)
 
