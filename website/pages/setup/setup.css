@@ -1,0 +1,203 @@
+body, html {
+    margin: 0;
+    background-color: #121319;
+    color: white;
+    font-family: montserrat;
+}
+
+h1 {
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+.main {
+    width: 450px;
+    background-color: #27272731;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.534);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    z-index: 1;
+}
+
+.mainInputs input, select {
+    width: 100%;
+    background-color: #00000080;
+    border: none;
+    font-size: 30px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    outline: none;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    margin: 0px 5px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #197a1900;
+    color: white;
+    font-size: 25px;
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: bold;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521);
+    border: none;
+    padding: 8px 12px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    border: 2px solid #197a19;
+}
+
+button:hover {
+    background-color: #22aa22;
+    border-color: #22aa22;
+    transform: translateY(-2px);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521), 0px 0px 20px #197a1980, 0px 2px 0px black;
+}
+
+.stop-btn {
+    border: 2px solid #7a1c19;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+
+.stop-btn:hover {
+    background-color: #aa3622;
+    border-color: #aa3622;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.521), 0px 0px 20px #7a1c1980, 0px 2px 0px black;
+}
+
+.link-div {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #27272731;
+    padding: 10px;
+    font-size: 20px;
+    z-index: 0;
+    display: block;
+    border-radius: 0px 0px 10px 10px;
+    width: 420px;
+    text-align: center;
+}
+
+.link-value::selection {
+    background-color: #00000000;
+}
+
+.barlow-semi-condensed-thin {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-extralight {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-light {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-regular {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-medium {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-semibold {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-bold {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-extrabold {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-black {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .barlow-semi-condensed-thin-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-extralight-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-light-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-regular-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-medium-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-semibold-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-bold-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-extrabold-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .barlow-semi-condensed-black-italic {
+    font-family: "Barlow Semi Condensed", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  

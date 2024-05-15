@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Setup</title>
+
+    <link rel="stylesheet" href="setup.css">
+    <script defer src="setup.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+</head>
+<body class="barlow-semi-condensed-bold">
+    <div class="main">
+        <h1 class="title" id="title">Please enter your Steam profile name</h1>
+
+        <div class="mainInputs" style="display: flex;">
+            <input type="text" name="" id="steamNameValue">
+            <select id="isCoopValue" name="hello" id="" style="width: auto;">
+                <option value="false">Story</option>
+                <option value="true">Advanced</option>
+            </select>
+        </div>
+        <button id="submitBtn">Submit</button>
+
+        <div class="link-div">
+            <span>Browser source link: </span>
+            <input type="text", id="linkValue" class="link-value" style="font-family: 'Barlow Semi Condensed', sans-serif; font-size: 20px; background-color: #00000000; color: white; border: none; width: 180px; outline: none" readonly value="http://localhost:3000/"></input><img onclick="copy()" style="transform: translateY(4px); cursor: pointer; margin-left: 0px;" src="./copy.svg" alt="">
+        </div>
+    </div>
+
+    <button class="stop-btn" id="stopServerBtn">Stop Server</button>
+</body>
+</html>
